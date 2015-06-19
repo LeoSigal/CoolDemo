@@ -50,6 +50,7 @@ public class OnCreateTrigger extends AbstractDataWriteScript<Boolean> {
             }
         }
         details.setContractStatus(RepositoryStatus.ACTIVE.getStatus());
+        details.setContractState("Exisiting");
         return true;
     }
 }
